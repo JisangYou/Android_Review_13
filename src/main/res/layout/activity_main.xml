@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/insert"
+            android:text="추가"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"/>
+
+        <Button
+            android:id="@+id/update"
+            android:text="갱신"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"/>
+
+        <Button
+            android:id="@+id/delete"
+            android:text="삭제"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"/>
+
+        <Button
+            android:id="@+id/query"
+            android:text="쿼리"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:gravity="top"
+        android:background="@android:drawable/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height= "match_parent"
+        android:layout_margin="10dp"/>
+
+
+
+</LinearLayout>
